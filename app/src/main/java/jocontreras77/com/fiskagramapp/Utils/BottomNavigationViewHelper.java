@@ -9,12 +9,12 @@ import android.support.design.widget.BottomNavigationView;
 import android.util.Log;
 import android.view.MenuItem;
 
-import jocontreras77.com.fiskagramapp.HomeActivity;
-import jocontreras77.com.fiskagramapp.LikesActivity;
-import jocontreras77.com.fiskagramapp.ProfileActivity;
+import jocontreras77.com.fiskagramapp.Home.HomeActivity;
+import jocontreras77.com.fiskagramapp.Likes.LikesActivity;
+import jocontreras77.com.fiskagramapp.Profile.ProfileActivity;
 import jocontreras77.com.fiskagramapp.R;
-import jocontreras77.com.fiskagramapp.SearchActivity;
-import jocontreras77.com.fiskagramapp.ShareActivity;
+import jocontreras77.com.fiskagramapp.Search.SearchActivity;
+import jocontreras77.com.fiskagramapp.Share.ShareActivity;
 
 /**
  * Created by Jennifer on 8/28/17.

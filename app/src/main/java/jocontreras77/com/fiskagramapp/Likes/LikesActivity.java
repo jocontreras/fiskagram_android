@@ -1,7 +1,6 @@
-package jocontreras77.com.fiskagramapp;
+package jocontreras77.com.fiskagramapp.Likes;
 
 import android.content.Context;
-import android.content.pm.ProviderInfo;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -11,16 +10,17 @@ import android.view.MenuItem;
 
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
+import jocontreras77.com.fiskagramapp.R;
 import jocontreras77.com.fiskagramapp.Utils.BottomNavigationViewHelper;
 
 /**
  * Created by Jennifer on 8/29/17.
  */
 
-public class ShareActivity extends AppCompatActivity {
-    private static final String TAG = "ShareActivity";
-    private static final int ACTIVITY_NUM = 2;
-    private Context mContext = ShareActivity.this;
+public class LikesActivity extends AppCompatActivity {
+    private static final String TAG = "LikesActivity";
+    private static final int ACTIVITY_NUM = 3;
+    private Context mContext = LikesActivity.this;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

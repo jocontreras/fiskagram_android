@@ -1,31 +1,30 @@
-package jocontreras77.com.fiskagramapp;
+package jocontreras77.com.fiskagramapp.Home;
 
 import android.content.Context;
-import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
+import jocontreras77.com.fiskagramapp.R;
 import jocontreras77.com.fiskagramapp.Utils.BottomNavigationViewHelper;
 
-/**
- * Created by Jennifer on 8/29/17.
- */
+public class HomeActivity extends AppCompatActivity {
 
-public class ProfileActivity extends AppCompatActivity {
-    private static final String TAG = "ProfileActivity";
-    private static final int ACTIVITY_NUM = 4;
-    private Context mContext = ProfileActivity.this;
+    private static final String TAG ="HomeActivity";
+    private static final int ACTIVITY_NUM = 0;
+
+    private Context mContext = HomeActivity.this;
+
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-        Log.d(TAG,"onCreate: Started");
+        Log.d(TAG, "onCreate: starting.");
 
         setupBottomNavigationView();
     }

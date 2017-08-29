@@ -1,4 +1,4 @@
-package jocontreras77.com.fiskagramapp;
+package jocontreras77.com.fiskagramapp.Share;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -10,17 +10,17 @@ import android.view.MenuItem;
 
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
+import jocontreras77.com.fiskagramapp.R;
 import jocontreras77.com.fiskagramapp.Utils.BottomNavigationViewHelper;
 
 /**
  * Created by Jennifer on 8/29/17.
  */
 
-public class SearchActivity extends AppCompatActivity {
-    private static final String TAG = "SearchActivity";
-    private static final int ACTIVITY_NUM = 1;
-
-    private Context mContext = SearchActivity.this;
+public class ShareActivity extends AppCompatActivity {
+    private static final String TAG = "ShareActivity";
+    private static final int ACTIVITY_NUM = 2;
+    private Context mContext = ShareActivity.this;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
